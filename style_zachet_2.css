@@ -1,0 +1,88 @@
+body{
+    background-image:url("fon_cats_1.jpg");
+}
+ul{
+    List-style:lower-alpha; 
+}
+div{
+    background-color: white;
+    border-radius: 20px;
+    padding-left: 100px;
+}
+h1{
+    box-shadow: 2px 2px  orange ;
+}
+p{
+    font-family: 'Courier New', Courier, monospace;
+    color: orange;
+}
+img{
+    border-radius: 20px;
+}
+a{
+    text-decoration: none;
+}
+
+.cat{
+    position: absolute;
+    animation-name: run_cat;
+    animation-duration:10s;
+    animation-iteration-count:infinite;
+    animation-direction:normal;
+    animation-timing-function:linear;
+}
+
+.mouse{
+    position: absolute;
+    animation-name: run_mouse;
+    animation-duration:10s;
+    animation-iteration-count:infinite;
+    animation-direction:normal;
+    animation-timing-function:linear;
+}
+
+@keyframes run_cat {
+    0%{
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    25%{
+        margin-left: 500px;
+        margin-top: 0px;
+    }
+    50%{
+        margin-left: 500px;
+        margin-top: 200px;
+    }
+    75%{
+        margin-top: 0px;
+        margin-left: 300px;
+    }
+    100%{
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+}
+@keyframes run_mouse {
+    0%{
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    25%{
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    50%{
+        margin-left: 500px;
+        margin-top: 0px;
+    }
+    75%{
+        margin-left: 500px;
+        margin-top: 200px;
+    }
+    100%{
+        margin-top: 0px;
+        margin-left: 300px;
+    }
+    
+}
