@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style_proect.css">
+</head>
+<body  class = "body A">
+    <header>
+        <p id = "i1">Навигация</p>
+        <nav>
+            <ul class="menu">
+                <li><a href="index_proect.html">Главная</a>
+                    <ul class="pod_menu">
+                        <li><a href="#table_1">Что-то умное</a></li>
+                        <li><a href="#ul_1">Кушать</a></li>
+                        <li><a href="#p_1">Какой-то текст</a></li>
+                    </ul>
+                </li>
+                <li><a href="index_proect_gallery.html">Картинки</a></li>
+            </ul>
+        </nav>
+        <button  onclick="document.querySelector('.A').classList.remove('A')
+                    document.querySelector('.body').classList.add('B')" >Сменить тему А</button>
+                    <button  onclick="document.querySelector('.B').classList.remove('B')
+                    document.querySelector('.body').classList.add('A')" >Сменить тему B</button>
+    </header>
+    <img src="capybara_1.jpg"  width="200px" height="200px" class="capybara1">
+    <img src="capybara_2.jpeg" width="200px" height="200px" class="capybara2">
+    <img src="capybara_3.jpeg" width="200px" height="200px" class="capybara3">
+    
+</body>
+</html>
